@@ -335,3 +335,13 @@ for user in list_of_users:
         print(f"Hello in system {user['user_name']}")
     else:
         print("Welcome on the board")
+
+
+
+
+
+import os
+
+dirname = input ('Имя папки: ')
+
+os.mkdir(dirname)
